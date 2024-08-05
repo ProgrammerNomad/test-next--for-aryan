@@ -11,9 +11,9 @@ function MyApp({ Component, pageProps }) {
                 <meta name="viewport" content="viewport-fit=cover" />
                 <meta charSet="utf-8" />
             </Head>
-            <ThemeProvider>
+            
                 <Component {...pageProps} />
-            </ThemeProvider>
+            
         </>
     )
 }
